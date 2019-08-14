@@ -1,0 +1,15 @@
+E:\diplom\diplom\project\1\tech_spec\bin\Debug\tech_spec.exe.config
+E:\diplom\diplom\project\1\tech_spec\bin\Debug\tech_spec.exe
+E:\diplom\diplom\project\1\tech_spec\bin\Debug\tech_spec.pdb
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.csprojAssemblyReference.cache
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\MainWindow.g.cs
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\App.g.cs
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec_MarkupCompile.cache
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec_MarkupCompile.lref
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\MainWindow.baml
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.g.resources
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.Properties.Resources.resources
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.csproj.GenerateResource.cache
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.csproj.CoreCompileInputs.cache
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.exe
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.pdb
