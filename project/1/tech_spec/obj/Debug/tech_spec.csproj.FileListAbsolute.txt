@@ -13,3 +13,7 @@ E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.csproj.GenerateResource
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.csproj.CoreCompileInputs.cache
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.exe
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.pdb
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\cartridge.g.cs
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\task.g.cs
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\cartridge.baml
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\task.baml
