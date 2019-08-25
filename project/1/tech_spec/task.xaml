@@ -7,11 +7,13 @@
         mc:Ignorable="d"
         Title="task" Height="450" Width="800">
     <Grid>
-        <Grid HorizontalAlignment="Right" Width="792" Height="419" VerticalAlignment="Bottom">
+        <Grid>
             <Button Content="search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23"  Margin="10,10,0,0"/>
             <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Enter_id" VerticalAlignment="Top" Width="120" Margin="90,10,0,0" RenderTransformOrigin="0.545,1.827"/>
             <DataGrid HorizontalAlignment="Left" Height="371" VerticalAlignment="Top" Width="772" Margin="10,38,0,0"/>
         </Grid>
+        <Button Content="New task" VerticalAlignment="Top" Height="23" 
+Margin="707,10,10,0" Click="Button_Click"/>
 
     </Grid>
 </Window>

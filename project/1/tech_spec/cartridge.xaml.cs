@@ -23,5 +23,11 @@ namespace tech_spec
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            new_cartridge new_Cartridge_form = new new_cartridge();
+            new_Cartridge_form.Show();
+        }
     }
 }

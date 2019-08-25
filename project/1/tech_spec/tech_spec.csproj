@@ -58,6 +58,12 @@
     <Compile Include="cartridge.xaml.cs">
       <DependentUpon>cartridge.xaml</DependentUpon>
     </Compile>
+    <Compile Include="new_cartridge.xaml.cs">
+      <DependentUpon>new_cartridge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="new_task.xaml.cs">
+      <DependentUpon>new_task.xaml</DependentUpon>
+    </Compile>
     <Compile Include="task.xaml.cs">
       <DependentUpon>task.xaml</DependentUpon>
     </Compile>
@@ -77,6 +83,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="new_cartridge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="new_task.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="task.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -17,3 +17,7 @@ E:\diplom\diplom\project\1\tech_spec\obj\Debug\cartridge.g.cs
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\task.g.cs
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\cartridge.baml
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\task.baml
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\new_cartridge.g.cs
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\new_task.g.cs
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\new_cartridge.baml
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\new_task.baml

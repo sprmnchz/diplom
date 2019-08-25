@@ -1,0 +1,25 @@
+﻿<Window x:Class="tech_spec.new_cartridge"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tech_spec"
+        mc:Ignorable="d"
+        Title="New cartridge" Height="450" Width="800">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,83,0,0" RenderTransformOrigin="0.517,0.001"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,110,0,0"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,140,0,0"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,160,0,0"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,180,0,0"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,200,0,0"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,36,0,0"/>
+        <Label Content="cartridge" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,63,0,0"/>
+        <Label Content="client" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Button Content="search client" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="135,38,0,0"/>
+        <Label Content="manufacturer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,79,0,0"/>
+        <Label Content="model" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,106,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="comment" VerticalAlignment="Top" Width="120" Margin="10,220,0,0"/>
+
+    </Grid>
+</Window>

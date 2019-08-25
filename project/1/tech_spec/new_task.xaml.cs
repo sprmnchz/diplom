@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace tech_spec
 {
     /// <summary>
-    /// Логика взаимодействия для task.xaml
+    /// Логика взаимодействия для new_task.xaml
     /// </summary>
-    public partial class task : Window
+    public partial class new_task : Window
     {
-        public task()
+        public new_task()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            new_task new_task_form = new new_task();
-            new_task_form.Show();
         }
     }
 }
