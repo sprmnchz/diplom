@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tech_spec"
         mc:Ignorable="d"
-        Title="New cartridge" Height="331.714" Width="254.857">
+        Title="New cartridge" Height="331.714" Width="265.143">
     <Grid>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,109,0,0" RenderTransformOrigin="0.517,0.001"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,136,0,0"/>
@@ -23,6 +23,8 @@
         <CheckBox Content="dosing blade" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,241,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="10,63,0,0"/>
         <Label Content="cartridge id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,63,0,0"/>
+        <Button Content="add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="162,266,0,0"/>
+        <Button Content="add data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="162,241,0,0"/>
 
     </Grid>
 </Window>
