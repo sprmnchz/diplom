@@ -20,6 +20,8 @@
         <CheckBox Content="add data" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="222,52,0,0"/>
         <CheckBox Content="add data" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="347,52,0,0"/>
         <Button Content="add data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,100,0,0"/>
+        <RadioButton Content="equipment" VerticalAlignment="Top" Margin="94,91,323,0"/>
+        <RadioButton Content="cartridge" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="94,106,0,0"/>
 
     </Grid>
 </Window>
