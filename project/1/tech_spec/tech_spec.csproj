@@ -55,6 +55,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="cartridge.xaml.cs">
+      <DependentUpon>cartridge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="client.xaml.cs">
+      <DependentUpon>client.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="new_cartridge.xaml.cs">
+      <DependentUpon>new_cartridge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="new_data.xaml.cs">
+      <DependentUpon>new_data.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="new_task.xaml.cs">
+      <DependentUpon>new_task.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="task.xaml.cs">
+      <DependentUpon>task.xaml</DependentUpon>
+    </Compile>
+    <Page Include="cartridge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="client.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +93,22 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="new_cartridge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="new_data.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="new_task.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="task.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
