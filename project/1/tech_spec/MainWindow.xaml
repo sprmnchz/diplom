@@ -22,6 +22,7 @@
             <DataGrid HorizontalAlignment="Left" Height="379" VerticalAlignment="Top" Width="623" Margin="139,10,0,0" Grid.ColumnSpan="2"/>
 
         </Grid>
+        <Button Content="new data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,389,0,0" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

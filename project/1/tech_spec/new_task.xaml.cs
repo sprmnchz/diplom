@@ -23,5 +23,17 @@ namespace tech_spec
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            client client_form = new client();
+            client_form.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            new_data new_data_form = new new_data();
+            new_data_form.Show();
+        }
     }
 }

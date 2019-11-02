@@ -24,5 +24,11 @@ namespace tech_spec
             cartridge cartridge_form = new cartridge();
             cartridge_form.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            new_data new_data_form = new new_data();
+            new_data_form.Show();
+        }
     }
 }

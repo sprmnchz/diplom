@@ -15,20 +15,13 @@ using System.Windows.Shapes;
 namespace tech_spec
 {
     /// <summary>
-    /// Логика взаимодействия для new_cartridge.xaml
+    /// Логика взаимодействия для new_data.xaml
     /// </summary>
-    public partial class new_cartridge : Window
+    public partial class new_data : Window
     {
-        public new_cartridge()
+        public new_data()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            client client_form = new client();
-            client_form.Show();
-
         }
     }
 }
