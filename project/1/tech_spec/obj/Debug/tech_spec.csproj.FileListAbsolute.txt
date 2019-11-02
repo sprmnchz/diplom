@@ -10,7 +10,6 @@ E:\diplom\diplom\project\1\tech_spec\obj\Debug\MainWindow.baml
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.g.resources
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.Properties.Resources.resources
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.csproj.GenerateResource.cache
-E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.csproj.CoreCompileInputs.cache
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.exe
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\tech_spec.pdb
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\cartridge.g.cs

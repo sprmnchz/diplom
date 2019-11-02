@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tech_spec"
         mc:Ignorable="d"
-        Title="New task" Height="251.362" Width="370.845">
+        Title="New task" Height="251.362" Width="248.229">
     <Grid>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,10,0,0"/>
         <Button Content="new client" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="135,10,0,0" Click="Button_Click"/>
@@ -19,7 +19,7 @@
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="10,152,0,0"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,38,0,0"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,66,0,0"/>
-        <Button Content="new data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="221,40,0,0" Height="23" Click="Button_Click_1"/>
+        <Button Content="new data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="142,180,0,0" Height="23" Click="Button_Click_1"/>
         <Button Content="add task" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,180,0,0" Height="23"/>
 
     </Grid>
