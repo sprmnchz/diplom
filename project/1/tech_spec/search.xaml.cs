@@ -15,25 +15,13 @@ using System.Windows.Shapes;
 namespace tech_spec
 {
     /// <summary>
-    /// Логика взаимодействия для task.xaml
+    /// Логика взаимодействия для search.xaml
     /// </summary>
-    public partial class task : Window
+    public partial class search : Window
     {
-        public task()
+        public search()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            new_task new_task_form = new new_task();
-            new_task_form.Show();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            search search_form = new search();
-            search_form.Show();
         }
     }
 }

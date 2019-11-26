@@ -29,5 +29,11 @@ namespace tech_spec
             new_cartridge new_Cartridge_form = new new_cartridge();
             new_Cartridge_form.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            search search_form = new search();
+            search_form.Show();
+        }
     }
 }

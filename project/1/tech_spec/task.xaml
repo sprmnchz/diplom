@@ -8,7 +8,7 @@
         Title="task" Height="450" Width="800">
     <Grid>
         <Grid>
-            <Button Content="search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23"  Margin="10,10,0,0"/>
+            <Button Content="search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="23"  Margin="10,10,0,0" Click="Button_Click_1"/>
             <DataGrid HorizontalAlignment="Left" Height="371" VerticalAlignment="Top" Width="772" Margin="10,38,0,0"/>
         </Grid>
         <Button Content="New task" VerticalAlignment="Top" Height="23" 

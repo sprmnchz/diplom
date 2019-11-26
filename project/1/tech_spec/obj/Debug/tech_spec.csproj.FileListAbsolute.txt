@@ -24,3 +24,6 @@ E:\diplom\diplom\project\1\tech_spec\obj\Debug\new_data.g.cs
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\new_data.baml
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\client.g.cs
 E:\diplom\diplom\project\1\tech_spec\obj\Debug\client.baml
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\search.g.cs
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\search.baml
+E:\diplom\diplom\project\1\tech_spec\obj\Debug\GeneratedInternalTypeHelper.g.cs

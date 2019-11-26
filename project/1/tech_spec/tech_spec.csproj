@@ -70,8 +70,16 @@
     <Compile Include="new_task.xaml.cs">
       <DependentUpon>new_task.xaml</DependentUpon>
     </Compile>
+    <Compile Include="search.xaml.cs">
+      <DependentUpon>search.xaml</DependentUpon>
+    </Compile>
     <Compile Include="task.xaml.cs">
       <DependentUpon>task.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tech_specDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tech_specDataSet.xsd</DependentUpon>
     </Compile>
     <Page Include="cartridge.xaml">
       <SubType>Designer</SubType>
@@ -105,6 +113,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="search.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="task.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -131,6 +143,17 @@
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="tech_specDataSet.xsc">
+      <DependentUpon>tech_specDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tech_specDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tech_specDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tech_specDataSet.xss">
+      <DependentUpon>tech_specDataSet.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

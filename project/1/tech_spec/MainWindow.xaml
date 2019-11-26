@@ -5,24 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tech_spec"
         mc:Ignorable="d"
-        Title="Tech_spec" Height="450" Width="800" MinWidth="800" MinHeight="450" MaxWidth="800" MaxHeight="450">
+        Title="Tech_spec" Height="150" Width="269" MinWidth="150" MinHeight="200" MaxWidth="150" MaxHeight="200">
 
     <Grid>
-
-        <Grid.ColumnDefinitions>
-
-        </Grid.ColumnDefinitions>
-        <Grid Margin="10,0,10,10" Height="399" VerticalAlignment="Bottom">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="71*"/>
-                <ColumnDefinition Width="315*"/>
-            </Grid.ColumnDefinitions>
-            <Button Content="Task" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Margin="10,10,0,0" Height="29" Click="Button_Click"/>
-            <Button Content="Cartridge" HorizontalAlignment="Left" VerticalAlignment="Top" Width="111" Margin="10,44,0,0" Height="29" Click="Button_Click_1"/>
-            <DataGrid HorizontalAlignment="Left" Height="379" VerticalAlignment="Top" Width="623" Margin="139,10,0,0" Grid.ColumnSpan="2"/>
-
-        </Grid>
-        <Button Content="new data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,389,0,0" Click="Button_Click_2"/>
+        <Button Content="Task" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122" Height="29" Click="Button_Click" Margin="10,24,0,0" Grid.ColumnSpan="2"/>
+        <Button Content="Cartridge" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122" Margin="10,58,0,0" Height="29" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Button Content="new data" HorizontalAlignment="Left" VerticalAlignment="Top" Width="122" Height="29" Margin="10,92,0,0" Click="Button_Click_2" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

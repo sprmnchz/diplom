@@ -30,5 +30,7 @@ namespace tech_spec
             new_data new_data_form = new new_data();
             new_data_form.Show();
         }
+
+       
     }
 }
