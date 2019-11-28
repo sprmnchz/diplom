@@ -136,6 +136,9 @@
     <EmbeddedResource Include="search.resx">
       <DependentUpon>search.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="task.resx">
+      <DependentUpon>task.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

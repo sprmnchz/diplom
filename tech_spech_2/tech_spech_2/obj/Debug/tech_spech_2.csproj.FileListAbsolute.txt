@@ -27,3 +27,4 @@ E:\diplom\diplom\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.csproj.Generat
 E:\diplom\diplom\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.exe
 E:\diplom\diplom\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.pdb
 E:\diplom\diplom\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.new_cartridge.resources
+E:\diplom\diplom\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.task.resources
