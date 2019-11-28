@@ -1,0 +1,14 @@
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\bin\Debug\tech_spech_2.exe.config
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\bin\Debug\tech_spech_2.exe
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\bin\Debug\tech_spech_2.pdb
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.csprojAssemblyReference.cache
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.MainWindows.resources
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.Properties.Resources.resources
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.csproj.GenerateResource.cache
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.exe
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.pdb
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.new_data.resources
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.new_task.resources
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.search.resources
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.cartridge.resources
+C:\Users\sprmn\source\repos\tech_spech_2\tech_spech_2\obj\Debug\tech_spech_2.client.resources
