@@ -31,19 +31,30 @@
             this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tech_specDataSet = new tech_spech_2.tech_specDataSet();
             this.cartridgeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tech_specDataSet = new tech_spech_2.tech_specDataSet();
             this.cartridgeTableAdapter = new tech_spech_2.tech_specDataSetTableAdapters.cartridgeTableAdapter();
-            this.cartridgeidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.manufactureidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.modelidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.workidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clientidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.owneridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet)).BeginInit();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tech_specDataSet1 = new tech_spech_2.tech_specDataSet1();
+            this.cartridgeTableAdapter1 = new tech_spech_2.tech_specDataSet1TableAdapters.cartridgeTableAdapter();
+            this.tech_specDataSet11 = new tech_spech_2.tech_specDataSet1();
+            this.dataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataTable1TableAdapter = new tech_spech_2.tech_specDataSet1TableAdapters.DataTable1TableAdapter();
+            this.номерDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.фирмаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.модельDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.номерЗадачиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.имяКлиентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.фамилияКлиентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.организацияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.имяТехспецDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.фамилияТехспецDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.cartridgeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -64,87 +75,135 @@
             this.button2.Text = "New cartridge";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // cartridgeBindingSource
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cartridgeidDataGridViewTextBoxColumn,
-            this.manufactureidDataGridViewTextBoxColumn,
-            this.modelidDataGridViewTextBoxColumn,
-            this.workidDataGridViewTextBoxColumn,
-            this.clientidDataGridViewTextBoxColumn,
-            this.owneridDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.cartridgeBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 41);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(650, 150);
-            this.dataGridView1.TabIndex = 2;
+            this.cartridgeBindingSource.DataMember = "cartridge";
+            this.cartridgeBindingSource.DataSource = this.tech_specDataSet1;
             // 
             // tech_specDataSet
             // 
             this.tech_specDataSet.DataSetName = "tech_specDataSet";
             this.tech_specDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // cartridgeBindingSource
-            // 
-            this.cartridgeBindingSource.DataMember = "cartridge";
-            this.cartridgeBindingSource.DataSource = this.tech_specDataSet;
-            // 
             // cartridgeTableAdapter
             // 
             this.cartridgeTableAdapter.ClearBeforeFill = true;
             // 
-            // cartridgeidDataGridViewTextBoxColumn
+            // dataGridView1
             // 
-            this.cartridgeidDataGridViewTextBoxColumn.DataPropertyName = "cartridge_id";
-            this.cartridgeidDataGridViewTextBoxColumn.HeaderText = "cartridge_id";
-            this.cartridgeidDataGridViewTextBoxColumn.Name = "cartridgeidDataGridViewTextBoxColumn";
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.номерDataGridViewTextBoxColumn,
+            this.фирмаDataGridViewTextBoxColumn,
+            this.модельDataGridViewTextBoxColumn,
+            this.номерЗадачиDataGridViewTextBoxColumn,
+            this.имяКлиентаDataGridViewTextBoxColumn,
+            this.фамилияКлиентаDataGridViewTextBoxColumn,
+            this.организацияDataGridViewTextBoxColumn,
+            this.имяТехспецDataGridViewTextBoxColumn,
+            this.фамилияТехспецDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.dataTable1BindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(13, 42);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(948, 150);
+            this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // manufactureidDataGridViewTextBoxColumn
+            // tech_specDataSet1
             // 
-            this.manufactureidDataGridViewTextBoxColumn.DataPropertyName = "manufacture_id";
-            this.manufactureidDataGridViewTextBoxColumn.HeaderText = "manufacture_id";
-            this.manufactureidDataGridViewTextBoxColumn.Name = "manufactureidDataGridViewTextBoxColumn";
+            this.tech_specDataSet1.DataSetName = "tech_specDataSet1";
+            this.tech_specDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // modelidDataGridViewTextBoxColumn
+            // cartridgeTableAdapter1
             // 
-            this.modelidDataGridViewTextBoxColumn.DataPropertyName = "model_id";
-            this.modelidDataGridViewTextBoxColumn.HeaderText = "model_id";
-            this.modelidDataGridViewTextBoxColumn.Name = "modelidDataGridViewTextBoxColumn";
+            this.cartridgeTableAdapter1.ClearBeforeFill = true;
             // 
-            // workidDataGridViewTextBoxColumn
+            // tech_specDataSet11
             // 
-            this.workidDataGridViewTextBoxColumn.DataPropertyName = "work_id";
-            this.workidDataGridViewTextBoxColumn.HeaderText = "work_id";
-            this.workidDataGridViewTextBoxColumn.Name = "workidDataGridViewTextBoxColumn";
+            this.tech_specDataSet11.DataSetName = "tech_specDataSet1";
+            this.tech_specDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // clientidDataGridViewTextBoxColumn
+            // dataTable1BindingSource
             // 
-            this.clientidDataGridViewTextBoxColumn.DataPropertyName = "client_id";
-            this.clientidDataGridViewTextBoxColumn.HeaderText = "client_id";
-            this.clientidDataGridViewTextBoxColumn.Name = "clientidDataGridViewTextBoxColumn";
+            this.dataTable1BindingSource.DataMember = "DataTable1";
+            this.dataTable1BindingSource.DataSource = this.tech_specDataSet11;
             // 
-            // owneridDataGridViewTextBoxColumn
+            // dataTable1TableAdapter
             // 
-            this.owneridDataGridViewTextBoxColumn.DataPropertyName = "owner_id";
-            this.owneridDataGridViewTextBoxColumn.HeaderText = "owner_id";
-            this.owneridDataGridViewTextBoxColumn.Name = "owneridDataGridViewTextBoxColumn";
+            this.dataTable1TableAdapter.ClearBeforeFill = true;
+            // 
+            // номерDataGridViewTextBoxColumn
+            // 
+            this.номерDataGridViewTextBoxColumn.DataPropertyName = "Номер";
+            this.номерDataGridViewTextBoxColumn.HeaderText = "Номер";
+            this.номерDataGridViewTextBoxColumn.Name = "номерDataGridViewTextBoxColumn";
+            // 
+            // фирмаDataGridViewTextBoxColumn
+            // 
+            this.фирмаDataGridViewTextBoxColumn.DataPropertyName = "Фирма";
+            this.фирмаDataGridViewTextBoxColumn.HeaderText = "Фирма";
+            this.фирмаDataGridViewTextBoxColumn.Name = "фирмаDataGridViewTextBoxColumn";
+            // 
+            // модельDataGridViewTextBoxColumn
+            // 
+            this.модельDataGridViewTextBoxColumn.DataPropertyName = "Модель";
+            this.модельDataGridViewTextBoxColumn.HeaderText = "Модель";
+            this.модельDataGridViewTextBoxColumn.Name = "модельDataGridViewTextBoxColumn";
+            // 
+            // номерЗадачиDataGridViewTextBoxColumn
+            // 
+            this.номерЗадачиDataGridViewTextBoxColumn.DataPropertyName = "Номер задачи";
+            this.номерЗадачиDataGridViewTextBoxColumn.HeaderText = "Номер задачи";
+            this.номерЗадачиDataGridViewTextBoxColumn.Name = "номерЗадачиDataGridViewTextBoxColumn";
+            // 
+            // имяКлиентаDataGridViewTextBoxColumn
+            // 
+            this.имяКлиентаDataGridViewTextBoxColumn.DataPropertyName = "Имя клиента";
+            this.имяКлиентаDataGridViewTextBoxColumn.HeaderText = "Имя клиента";
+            this.имяКлиентаDataGridViewTextBoxColumn.Name = "имяКлиентаDataGridViewTextBoxColumn";
+            // 
+            // фамилияКлиентаDataGridViewTextBoxColumn
+            // 
+            this.фамилияКлиентаDataGridViewTextBoxColumn.DataPropertyName = "Фамилия клиента";
+            this.фамилияКлиентаDataGridViewTextBoxColumn.HeaderText = "Фамилия клиента";
+            this.фамилияКлиентаDataGridViewTextBoxColumn.Name = "фамилияКлиентаDataGridViewTextBoxColumn";
+            // 
+            // организацияDataGridViewTextBoxColumn
+            // 
+            this.организацияDataGridViewTextBoxColumn.DataPropertyName = "Организация";
+            this.организацияDataGridViewTextBoxColumn.HeaderText = "Организация";
+            this.организацияDataGridViewTextBoxColumn.Name = "организацияDataGridViewTextBoxColumn";
+            // 
+            // имяТехспецDataGridViewTextBoxColumn
+            // 
+            this.имяТехспецDataGridViewTextBoxColumn.DataPropertyName = "Имя тех_спец";
+            this.имяТехспецDataGridViewTextBoxColumn.HeaderText = "Имя тех_спец";
+            this.имяТехспецDataGridViewTextBoxColumn.Name = "имяТехспецDataGridViewTextBoxColumn";
+            // 
+            // фамилияТехспецDataGridViewTextBoxColumn
+            // 
+            this.фамилияТехспецDataGridViewTextBoxColumn.DataPropertyName = "Фамилия тех_спец";
+            this.фамилияТехспецDataGridViewTextBoxColumn.HeaderText = "Фамилия тех_спец";
+            this.фамилияТехспецDataGridViewTextBoxColumn.Name = "фамилияТехспецDataGridViewTextBoxColumn";
             // 
             // cartridge
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 200);
+            this.ClientSize = new System.Drawing.Size(973, 200);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "cartridge";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.cartridge_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cartridgeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -153,15 +212,23 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private tech_specDataSet tech_specDataSet;
         private System.Windows.Forms.BindingSource cartridgeBindingSource;
         private tech_specDataSetTableAdapters.cartridgeTableAdapter cartridgeTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cartridgeidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn manufactureidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn modelidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn workidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn clientidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn owneridDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private tech_specDataSet1 tech_specDataSet1;
+        private tech_specDataSet1TableAdapters.cartridgeTableAdapter cartridgeTableAdapter1;
+        private tech_specDataSet1 tech_specDataSet11;
+        private System.Windows.Forms.BindingSource dataTable1BindingSource;
+        private tech_specDataSet1TableAdapters.DataTable1TableAdapter dataTable1TableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn номерDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn фирмаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn модельDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn номерЗадачиDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn имяКлиентаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn фамилияКлиентаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn организацияDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn имяТехспецDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn фамилияТехспецDataGridViewTextBoxColumn;
     }
 }

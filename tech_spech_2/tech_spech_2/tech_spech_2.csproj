@@ -101,6 +101,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>tech_specDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="tech_specDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tech_specDataSet1.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="cartridge.resx">
       <DependentUpon>cartridge.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindows.resx">
       <DependentUpon>MainWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_cartridge.resx">
+      <DependentUpon>new_cartridge.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="new_data.resx">
       <DependentUpon>new_data.cs</DependentUpon>
@@ -147,6 +155,17 @@
     </None>
     <None Include="tech_specDataSet.xss">
       <DependentUpon>tech_specDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tech_specDataSet1.xsc">
+      <DependentUpon>tech_specDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="tech_specDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tech_specDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tech_specDataSet1.xss">
+      <DependentUpon>tech_specDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

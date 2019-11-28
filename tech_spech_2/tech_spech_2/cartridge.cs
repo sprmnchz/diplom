@@ -19,8 +19,17 @@ namespace tech_spech_2
 
         private void cartridge_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "tech_specDataSet11.DataTable1". При необходимости она может быть перемещена или удалена.
+            this.dataTable1TableAdapter.Fill(this.tech_specDataSet11.DataTable1);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "tech_specDataSet1.cartridge". При необходимости она может быть перемещена или удалена.
+            this.cartridgeTableAdapter1.Fill(this.tech_specDataSet1.cartridge);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "tech_specDataSet.cartridge". При необходимости она может быть перемещена или удалена.
             this.cartridgeTableAdapter.Fill(this.tech_specDataSet.cartridge);
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
