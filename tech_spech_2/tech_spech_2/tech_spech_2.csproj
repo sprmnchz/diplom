@@ -58,6 +58,7 @@
     <Compile Include="client.Designer.cs">
       <DependentUpon>client.cs</DependentUpon>
     </Compile>
+    <Compile Include="DB.cs" />
     <Compile Include="MainWindows.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -77,6 +77,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "New client";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -116,6 +117,7 @@
             this.button3.TabIndex = 8;
             this.button3.Text = "New data";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 

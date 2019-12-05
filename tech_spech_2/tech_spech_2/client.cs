@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,49 @@ namespace tech_spech_2
         public client()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DB db = new DB();
+
+            SqlCommand command = new SqlCommand("INSERT INTO organization (name, adress) VALUES (@name,@adress)", db.getConnection());
+            
+            command.Parameters.Add("@name", SqlDbType.VarChar).Value=textBox5.Text;
+            command.Parameters.Add("@adress", SqlDbType.VarChar).Value = textBox6.Text;
+
+            db.openConnection();
+
+            if (command.ExecuteNonQuery() == 1)
+                MessageBox.Show("+");
+            else
+                MessageBox.Show("-");
+
+            db.closeConnection();
+
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DB db = new DB();
+
+            SqlCommand command = new SqlCommand("INSERT INTO client (first_name, second_name, patronumic, organization_id,telephone) VALUES (@name,@adress)", db.getConnection());
+
+            command.Parameters.Add("@name", SqlDbType.VarChar).Value = textBox1.Text;
+            command.Parameters.Add("@adress", SqlDbType.VarChar).Value = textBox2.Text;
+            command.Parameters.Add("@name", SqlDbType.VarChar).Value = textBox3.Text;
+            command.Parameters.Add("@adress", SqlDbType.VarChar).Value = textBox4.Text;
+
+            db.openConnection();
+
+            if (command.ExecuteNonQuery() == 1)
+                MessageBox.Show("+");
+            else
+                MessageBox.Show("-");
+
+            db.closeConnection();
         }
     }
 }

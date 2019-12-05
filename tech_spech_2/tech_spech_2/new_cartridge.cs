@@ -16,5 +16,11 @@ namespace tech_spech_2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            client client_form = new client();
+            client_form.Show();
+        }
     }
 }

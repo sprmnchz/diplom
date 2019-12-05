@@ -32,5 +32,17 @@ namespace tech_spech_2
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            search search_form = new search();
+            search_form.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new_cartridge new_Cartridge_form = new new_cartridge();
+            new_Cartridge_form.Show();
+        }
     }
 }

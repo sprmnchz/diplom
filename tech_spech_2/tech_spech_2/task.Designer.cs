@@ -32,12 +32,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tech_specDataSet1 = new tech_spech_2.tech_specDataSet1();
-            this.taskBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.taskTableAdapter = new tech_spech_2.tech_specDataSet1TableAdapters.taskTableAdapter();
-            this.tech_specDataSet11 = new tech_spech_2.tech_specDataSet1();
-            this.dataTable2BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataTable2TableAdapter = new tech_spech_2.tech_specDataSet1TableAdapters.DataTable2TableAdapter();
             this.фирмаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.модельDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.номерОборудованияDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -50,11 +44,17 @@
             this.фамилияКлиентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.имяТехспецDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.фамилияТехспецDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataTable2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tech_specDataSet11 = new tech_spech_2.tech_specDataSet1();
+            this.tech_specDataSet1 = new tech_spech_2.tech_specDataSet1();
+            this.taskBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.taskTableAdapter = new tech_spech_2.tech_specDataSet1TableAdapters.taskTableAdapter();
+            this.dataTable2TableAdapter = new tech_spech_2.tech_specDataSet1TableAdapters.DataTable2TableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.taskBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -65,6 +65,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -74,6 +75,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "New task";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // dataGridView1
             // 
@@ -97,34 +99,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1039, 182);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // tech_specDataSet1
-            // 
-            this.tech_specDataSet1.DataSetName = "tech_specDataSet1";
-            this.tech_specDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // taskBindingSource
-            // 
-            this.taskBindingSource.DataMember = "task";
-            this.taskBindingSource.DataSource = this.tech_specDataSet1;
-            // 
-            // taskTableAdapter
-            // 
-            this.taskTableAdapter.ClearBeforeFill = true;
-            // 
-            // tech_specDataSet11
-            // 
-            this.tech_specDataSet11.DataSetName = "tech_specDataSet1";
-            this.tech_specDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dataTable2BindingSource
-            // 
-            this.dataTable2BindingSource.DataMember = "DataTable2";
-            this.dataTable2BindingSource.DataSource = this.tech_specDataSet11;
-            // 
-            // dataTable2TableAdapter
-            // 
-            this.dataTable2TableAdapter.ClearBeforeFill = true;
             // 
             // фирмаDataGridViewTextBoxColumn
             // 
@@ -198,6 +172,34 @@
             this.фамилияТехспецDataGridViewTextBoxColumn.HeaderText = "Фамилия тех_спец";
             this.фамилияТехспецDataGridViewTextBoxColumn.Name = "фамилияТехспецDataGridViewTextBoxColumn";
             // 
+            // dataTable2BindingSource
+            // 
+            this.dataTable2BindingSource.DataMember = "DataTable2";
+            this.dataTable2BindingSource.DataSource = this.tech_specDataSet11;
+            // 
+            // tech_specDataSet11
+            // 
+            this.tech_specDataSet11.DataSetName = "tech_specDataSet1";
+            this.tech_specDataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tech_specDataSet1
+            // 
+            this.tech_specDataSet1.DataSetName = "tech_specDataSet1";
+            this.tech_specDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // taskBindingSource
+            // 
+            this.taskBindingSource.DataMember = "task";
+            this.taskBindingSource.DataSource = this.tech_specDataSet1;
+            // 
+            // taskTableAdapter
+            // 
+            this.taskTableAdapter.ClearBeforeFill = true;
+            // 
+            // dataTable2TableAdapter
+            // 
+            this.dataTable2TableAdapter.ClearBeforeFill = true;
+            // 
             // task
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,10 +212,10 @@
             this.Text = "task";
             this.Load += new System.EventHandler(this.task_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.taskBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tech_specDataSet11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

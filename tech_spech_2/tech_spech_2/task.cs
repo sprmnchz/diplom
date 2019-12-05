@@ -25,5 +25,18 @@ namespace tech_spech_2
             this.taskTableAdapter.Fill(this.tech_specDataSet1.task);
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new_task new_Task_form = new new_task();
+            new_Task_form.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            search search_form = new search();
+            search_form.Show();
+
+        }
     }
 }
