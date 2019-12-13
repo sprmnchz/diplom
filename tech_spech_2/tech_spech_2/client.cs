@@ -44,13 +44,12 @@ namespace tech_spech_2
         {
             DB db = new DB();
 
-            SqlCommand command = new SqlCommand("INSERT INTO client (first_name, second_name, patronumic, organization_id,telephone) VALUES (@first_name, @second_name, @patronumic,(SELECT organization_id FROM organization WHERE name = @organization_name),@telephone)", db.getConnection());
-            
-            command.Parameters.Add("@first_name", SqlDbType.VarChar).Value = textBox1.Text;
-            command.Parameters.Add("@second_name", SqlDbType.VarChar).Value = textBox2.Text;
-            command.Parameters.Add("@patronumic", SqlDbType.VarChar).Value = textBox3.Text;
-            command.Parameters.Add("@organization_name", SqlDbType.VarChar).Value = textBox7.Text;
-            command.Parameters.Add("@telephone", SqlDbType.VarChar).Value = textBox4.Text;
+            SqlCommand command = new SqlCommand("INSERT INTO client (first_name, second_name, patronumic, organization_id,telephone) VALUES (@name,@adress)", db.getConnection());
+
+            command.Parameters.Add("@name", SqlDbType.VarChar).Value = textBox1.Text;
+            command.Parameters.Add("@adress", SqlDbType.VarChar).Value = textBox2.Text;
+            command.Parameters.Add("@name", SqlDbType.VarChar).Value = textBox3.Text;
+            command.Parameters.Add("@adress", SqlDbType.VarChar).Value = textBox4.Text;
 
             db.openConnection();
 
